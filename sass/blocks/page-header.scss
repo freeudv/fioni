@@ -1,0 +1,32 @@
+.page-header {
+  min-height: 800px;
+  background:$bg-dark url("../img/header-img.jpg") 0 0 no-repeat;
+}
+
+.page-header__top-menu {
+    border-bottom: 1px solid $nav-border;
+}
+
+.page-header__wrapper {
+  @include container;
+}
+
+.page-header__title {
+  margin-top: 260px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: $text-white;
+
+  b {
+    text-transform: uppercase;
+    color: $text-green;
+    font-weight: 900;
+  }
+}
+
+.page-header__text {
+  margin: 0 auto;
+  width: 920px;
+  color: $text-white;
+  text-align: center;
+}

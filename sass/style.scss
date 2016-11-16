@@ -1,0 +1,18 @@
+@import "normalize.scss";
+
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "global/scaffolding.scss";
+@import "global/fonts.scss";
+@import "global/typography.scss";
+
+/* index.html */
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/promo.scss";
+@import "blocks/team.scss";
+@import "blocks/works.scss";
+@import "blocks/price.scss";
+@import "blocks/contacts.scss";
+@import "blocks/page-footer.scss";

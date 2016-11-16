@@ -1,0 +1,71 @@
+.contacts {
+  padding-top: 30px;
+  padding-bottom: 30px;
+//  min-height: 500px;
+  background:$bg-dark url("../img/form-img.jpg") left top no-repeat;
+  background-size: 100% 500px;
+  text-align: center;
+}
+
+.contacts__wrapper {
+  @include container;
+}
+
+.contacts__title {
+  text-transform: uppercase;
+  color: $text-white;
+  margin-bottom: 20px;
+}
+
+.contacts__form {
+  margin-bottom: 28px;
+  padding: 0 140px;
+  font-size: 0;
+}
+
+.contacts__form-login,
+.contacts__form-email,
+.contacts__form-text {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 36px;
+  background-color: transparent;
+  outline: none;
+  border: 0.5px solid #b2b3b4;
+  color: $text-white;
+}
+
+.contacts__form-login {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.contacts__form-login,
+.contacts__form-email {
+  width: 48.8%;
+}
+
+.contacts__form-email {
+  float: right;
+}
+
+.contacts__form-text {
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.contacts__link {
+  margin-top: 30px;
+  padding: 7px 43px;
+  background-color: $text-green;
+  border: none;
+  color: $text-white;
+
+  &:hover {
+    background-color: darken($text-green, 10%);
+  }
+}

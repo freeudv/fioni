@@ -1,0 +1,37 @@
+
+.main-nav {
+  padding: 32px 95px 32px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav__list {
+  display: flex;
+  width: 800px;
+  justify-content: flex-end;
+}
+
+.main-nav__item {
+  margin-left: 40px;
+
+  a {
+  color: $text-white;
+  padding: 10px 0;
+
+    &:hover {
+      color: $text-green;
+      border-bottom: 1px solid $text-green;
+    }
+  }
+}
+
+.main-nav__item--active {
+
+  a,
+  a:hover,
+  a:active {
+    color: $text-gray;
+    border: none;
+  }
+}

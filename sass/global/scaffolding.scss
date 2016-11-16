@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+}
+
+
+body {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: 400;
+  color: $text-dark;
+  background-color: $bg-white;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul, p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn {
+  padding: 15px 60px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 36px;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+}
+

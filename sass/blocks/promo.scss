@@ -1,0 +1,80 @@
+.promo {
+  padding-top: 120px;
+  padding-bottom: 50px;
+  background-color: #fff;
+  color: $text-gray;
+}
+
+.promo__wrapper {
+  @include container;
+}
+
+.promo__title {
+  margin-bottom: 60px;
+  color: $text-dark;
+  text-align: center;
+
+  b {
+    text-transform: uppercase;
+    color: $text-green;
+  }
+}
+
+.promo__text {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  width: 900px;
+  color: $text-gray;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 30px;
+  text-align: center;
+}
+
+.promo__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.promo__item {
+  margin-bottom: 50px;
+  padding: 30px 15px 20px;
+  width: 330px;
+  border: 0.5px solid $text-gray;
+  text-align: center;
+  transition: all 0.2s;
+
+  &:hover {
+    border: 0.5px solid $text-green;
+    transform: scale(1.03);
+  }
+
+  &:hover .promo__item-icon,
+  &:hover .promo__item-title {
+    color: $text-green;;
+
+    }
+}
+
+.promo__item-icon {
+  margin-bottom: 15px;
+  color: $text-dark;
+  transform: scale(1.8);
+
+}
+.promo__item-title {
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  color: $text-dark;
+}
+
+.promo__item-text {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 30px;
+  color: $text-gray;
+}

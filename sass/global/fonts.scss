@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), local("Roboto-Regular"), url("../font/Roboto.woff2") format("woff2"), url("../font/Roboto.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../font/Robotomedium.woff2") format("woff2"), url("../font/Robotomedium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Light"), local("Roboto-Light"), url("../font/../fonts/Robotolight.woff2") format("woff2"), url("../font/../fonts/Robotolight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Thin"), local("Roboto-Thin"), url("../font/Robotothin.woff2") format("woff2"), url("../font/Robotothin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"), url("../font/Robotothinitalic.woff2") format("woff2"), url("../font/Robotothinitalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url("../font/robotoslabthin.woff2") format("woff2"), url("../font/robotoslabthin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url("../font/robotoslabregular.woff2") format("woff2"), url("../font/robotoslabregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo";
+  src: local("Exo Black"), local("Exo-Black"), url("../font/exoblack.woff2") format("woff2"), url("../font/exoblack.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Exo";
+  src: local("Exo Regular"), local("Exo-Regular"), url("../font/exoregular.woff2") format("woff2"), url("../font/exoregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pacifico";
+  src: local("Pacifico"), url("../font/pacifico.woff2") format("woff2"), url("../font/pacifico.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
